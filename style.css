@@ -75,11 +75,30 @@
     justify-content: space-around;
     align-items: center;
 }
-.left-container p{
+.left-container p, li{
     width: 50%;
+    margin: 10px 0 10px 0;
 }
 .first-boxes{
     display: flex;
     gap: 4px;
     margin-top: 4px;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-right: 2px solid red;
+    padding: 20px;
+}
+.profile img{
+    width: 70px;
+    height: 70px;
+    border-radius: 33px;
+}
+.author-contant{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    
 }
